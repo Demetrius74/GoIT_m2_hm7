@@ -12,7 +12,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class Config {
-    public static final String DEFAULT_PREFS_FILE = "prefs.json";
+    public static final String DEFAULT_PREFS_FILE = "config.json";
     public static final String INIT_DB_FILE = "dbInit";
     public static final String INIT_POPULATE_DB_FILE = "dbPopulate";
     public static final String DB_URL_CONNECTION = "dbUrl";

@@ -1,6 +1,7 @@
 package org.august;
 
 import org.august.utils.database.Database;
+import org.august.utils.database.DatabaseInitService;
 import org.august.utils.database.DatabasePopulateService;
 import org.august.utils.database.DatabaseQueryService;
 import org.august.utils.model.*;
@@ -13,7 +14,7 @@ public class Main {
     public static void main(String[] args) {
 
         Connection connection = Database.getConnection();
-
+//        new DatabaseInitService(connection).initialize();
         DatabasePopulateService dbPopulateService = new DatabasePopulateService(connection);
 
         Worker newWorker = new Worker(
@@ -23,25 +24,25 @@ public class Main {
                 3500
         );
 
-        dbPopulateService.insertWorker(newWorker);
+        long workerId = dbPopulateService.insertWorker(newWorker).getId();
         System.out.println("newWorker = " + newWorker);
 
 
-        Client newClient = new Client("Magnum Inc.");
-        dbPopulateService.insertClient(newClient);
+        Client newClient = new Client("Mojang");
+        long clientId = dbPopulateService.insertClient(newClient).getId();
         System.out.println("newClient = " + newClient);
 
         Project newProject = new Project(
-                6,
+                clientId,
                 "Project X",
                 LocalDate.now().minusMonths(7),
                 LocalDate.now());
-        dbPopulateService.insertProject(newProject);
+        long projectId = dbPopulateService.insertProject(newProject).getId();
         System.out.println("newProject = " + newProject);
 
         ProjectToWorkersRelation projectToWorkerRelation = new ProjectToWorkersRelation(
-                11,
-                new long[]{11, 10, 9}
+                projectId,
+                new long[]{workerId}
         );
         dbPopulateService.insertProjectToWorkerRelation(projectToWorkerRelation);
         System.out.println("projectToWorkerRelation = " + projectToWorkerRelation);

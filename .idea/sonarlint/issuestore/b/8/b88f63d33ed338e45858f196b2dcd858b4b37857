@@ -1,11 +1,14 @@
 
-r	java:S106"+Replace this use of System.out by a logger.(ÂÎ×Êÿÿÿÿÿ8®º²ù1J$a9753233-cf02-477a-9189-c6ab90347d93
-m	java:S106 "+Replace this use of System.out by a logger.(‰ˆÑò8±º²ù1J$77f6fc57-8b09-42f9-9794-01e6578ee8e0
-r	java:S106("+Replace this use of System.out by a logger.(ÄŞÎÇıÿÿÿÿ8²º²ù1J$409ca47d-680d-48d4-b46a-fc6720575a9a
-r	java:S106/"+Replace this use of System.out by a logger.(ŠĞÃşÿÿÿÿ8´º²ù1J$070ac5b7-7a52-45ca-9743-46a35e81d99d
-m	java:S1064"+Replace this use of System.out by a logger.(…‰±Ğ8¶º²ù1J$abb9a0db-9761-459f-8d32-0819b3224ce9
-m	java:S1067"+Replace this use of System.out by a logger.(ìÂÊ¿8¸º²ù1J$3dce97be-2b73-486d-a330-2b33c501195d
-l	java:S106:"+Replace this use of System.out by a logger.(Ú¢‰8»Ê³ù1J$667b5f76-4065-40f6-8653-4cc0d23ccd37
-m	java:S106="+Replace this use of System.out by a logger.(¢„ª8»Ê³ù1J$41ccf676-9fed-4f3f-ba94-aff793b107a5
-r	java:S106@"+Replace this use of System.out by a logger.(“úóÊüÿÿÿÿ8‘»Ê³ù1J$55a1ea0c-9825-44da-b7d4-54aa89bafdba
-r	java:S106C"+Replace this use of System.out by a logger.(áÁš§şÿÿÿÿ8‘»Ê³ù1J$800dcd60-b8e5-4a07-a9da-1278b54edd0c
+ƒ	java:S125"<This block of commented-out lines of code should be removed.(íî Òøÿÿÿÿ8úã†Âù1J$5883cd4b-ab07-4ed2-a7fb-4b3302294ddb
+r	java:S106"+Replace this use of System.out by a logger.(ÂÎ×Êÿÿÿÿÿ8üã†Âù1J$96c784fd-b9f7-4a99-9ed1-5a63827e8eea
+m	java:S106!"+Replace this use of System.out by a logger.(‰ˆÑò8ıã†Âù1J$4ad80130-d81e-445d-b2b0-8d012e98609a
+r	java:S106)"+Replace this use of System.out by a logger.(ÄŞÎÇıÿÿÿÿ8şã†Âù1J$0d711158-a600-445d-9880-ef1d184276b7
+r	java:S1060"+Replace this use of System.out by a logger.(ŠĞÃşÿÿÿÿ8şã†Âù1J$67cd9a7f-df01-4c32-8b6a-97144fd9b6ac
+m	java:S1065"+Replace this use of System.out by a logger.(…‰±Ğ8ÿã†Âù1J$7deeebeb-100f-45f5-9a1f-1ac11cb2d4ec
+m	java:S1068"+Replace this use of System.out by a logger.(ìÂÊ¿8€ä†Âù1J$17e711ed-6a34-431b-ae54-8096148858df
+l	java:S106;"+Replace this use of System.out by a logger.(Ú¢‰8€ä†Âù1J$60a78734-d74b-455f-9e43-0eda52ebecff
+m	java:S106>"+Replace this use of System.out by a logger.(¢„ª8€ä†Âù1J$25d6e65f-ea30-475a-a52b-2950d24a7639
+r	java:S106A"+Replace this use of System.out by a logger.(“úóÊüÿÿÿÿ8ä†Âù1J$0b77ec2c-a068-426f-b878-6f2f14caf635
+r	java:S106D"+Replace this use of System.out by a logger.(áÁš§şÿÿÿÿ8ä†Âù1J$d7f48c06-2043-4541-b193-f746c21c3b5e
+
+java:S1128"JRemove this unused import 'org.august.utils.database.DatabaseInitService'.(ÇÖºÍ8Ù’Âù1J$e7ffd13e-329e-4aba-a104-8a11b65eeede
