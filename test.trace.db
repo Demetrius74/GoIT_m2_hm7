@@ -1,0 +1,14 @@
+2024-05-21 01:51:43.026620+03:00 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Таблица "WORKER" уже существует
+Table "WORKER" already exists; SQL statement:
+CREATE TABLE worker (
+    id IDENTITY PRIMARY KEY,
+    name VARCHAR NOT NULL
+        CHECK LENGTH(name) BETWEEN 2 AND 1000,
+    birthday DATE
+        CHECK (birthday >= '1900-01-01'),
+    level VARCHAR NOT NULL
+        CHECK level IN ('Trainee', 'Junior', 'Middle', 'Senior'),
+    salary NUMERIC(100000, 0)
+        CHECK (salary >= 100 AND salary <= 100000)
+) [42101-224]
